@@ -1,0 +1,53 @@
+.content{
+    background-color: #b902b9;
+    max-width: 100%;
+    height: 150vh;
+    
+}
+.landing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(images/retrowave-sun-background.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.content .playlist-name{
+    background-color: transparent;
+    /* padding-right: 150px; */
+    margin-left: -170px;
+    padding-top: 500px;
+    color: #ffff00;
+}
+.content .playlist-name h1{
+    font-weight: bolder;
+    font-size: 54px;
+}
+.content .playlist-name p{
+    font-weight: 600;
+    font-family: cursive;
+}
+.content .songs{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 1% 0% 0% 11%;
+}
+.content .songs table{
+    width: 100%;
+}
+/* .content .songs table tr{
+
+} */
+table,th,td{
+    border: 4px #A0A;
+    border-style: solid;
+    /* border-block: none; */
+    text-align: center;
+    border-inline: none;
+    border-top-style: solid;
+    border-bottom-style: none;
+}
+.artworks{
+    width:60px
+}

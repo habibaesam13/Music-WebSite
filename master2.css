@@ -1,0 +1,166 @@
+body {
+background-color: #000000;
+    position: absolute;
+    font-family: serif;
+    height: 900px;
+   
+}
+.z {
+    width: 1408px;
+    height: 600px;
+    background-color:black;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.v2 {
+    
+    width: 800px;
+    height: 600px;
+    position: relative;
+    
+    left: 606px;
+}
+.input2 {
+    position: relative;
+    bottom: 565px;
+    left: 52px;
+    display: grid;
+    row-gap: 58px;
+}
+.firstname {
+    width: 260px;
+    height: 36px;
+    background-color:#5d7597;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 3px 3px 1px 1px #afb3c1;
+}
+.seconedname {
+    width: 260px;
+    height: 36px;
+    background-color:#5d7597;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 3px 3px 1px 1px #afb3c1;
+}
+.email {
+    width: 260px;
+    height: 36px;
+    background-color:#5d7597;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 3px 3px 1px 1px #afb3c1;
+}
+.username {
+    width: 260px;
+    height: 36px;
+    background-color:#5d7597;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 3px 3px 1px 1px #afb3c1;
+}
+.password {
+    width: 260px;
+    height: 36px;
+    background-color:#5d7597;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 3px 3px 1px 1px #afb3c1;
+}
+::placeholder {
+    color: white;
+}
+.firstname:hover {
+    background-color: #000000;
+    color: white; 
+    border: 1px 1px 3px 4px; 
+    border-color: #907bb3;
+}
+.seconedname:hover {
+    background-color: #000000;
+    color: white; 
+    border: 1px 1px 3px 4px; 
+    border-color: #907bb3;
+}
+.username:hover {
+    background-color: #000000;
+    color: white; 
+    border: 1px 1px 3px 4px; 
+    border-color: #907bb3;
+}
+.email:hover {
+    background-color: #000000;
+    color: white; 
+    border: 1px 1px 3px 4px; 
+    border-color: #907bb3;
+}
+.username:hover {
+    background-color: #000000;
+    color: white; 
+    border: 1px 1px 3px 4px; 
+    border-color: #907bb3;
+}
+.password:hover {
+    background-color: #000000;
+    color: white; 
+    border: 1px 1px 3px 4px; 
+    border-color: #907bb3;
+}
+.l {
+    position: relative;
+    width: 223px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -8px;
+    border-radius: 7px;
+    left: 106px;
+    border: none;
+    background-color: #858585;
+    font-weight: bolder;
+}
+.l:hover {
+    background-color: #000000;
+    color: white;
+    border-color: #907bb3;
+    box-shadow: 3px 3px 1px 1px #afb3c1;
+    
+    
+    cursor: pointer;
+}
+.pic {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    bottom: 427px;
+    left: 600px;
+} 
+
+.m {
+    position: relative;
+    bottom: 923px;
+    color: white;
+    
+}
+h1 {
+    font-size: 60px;
+}
+h3 {
+    font-size: 25px;
+    color: #907bb3;
+}
+.n {
+    position: relative;
+    left: 38px;
+}
+i {
+    color: #ffffff;
+    font-size: 50px;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+
+

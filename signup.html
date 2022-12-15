@@ -1,0 +1,143 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="master2.css">
+	<script defer type="text/javascript">
+		var users = [];
+		if (localStorage.getItem("x") == null) {
+			users = [];
+		}
+		else {
+			users = JSON.parse(localStorage.getItem("x"));
+		}
+
+		function signup() {
+			var email = document.getElementById("mail").value;
+			var username = document.getElementById("username").value;
+			var password = document.getElementById("pass").value;
+			//set user input into JSON
+			var user = { username: username, password: password };
+			//push new user to array
+			users.push(user);
+			//save to localStorage
+			localStorage.setItem("x", JSON.stringify(users));
+
+		}
+
+	</script>
+
+
+	<title>SignUp</title>
+</head>
+
+<body>
+
+	<i class="fa-brands fa-napster"></i>
+	<div class="z">
+
+		<video class="v2" autoplay muted loop>
+			<source src="video_2022-08-26_13-44-22.mp4">
+		</video>
+		<div class="input2">
+			<form action="Homepage.html" name="Signupform" on method="post" id="Signupform" required>
+				<input type="text" placeholder="first name" class="firstname" required><br><br><br>
+				<input type="text" placeholder="Seconed name" class="seconedname" required><br><br><br>
+				<input type="email" placeholder="Email" class="email" id="mail" required><br><br><br>
+				<input type="text" placeholder="Username" class="username" id="username" required><br><br><br>
+				<input type="password" placeholder="Password" class="password" id="pass" required><br><br><br><br>
+				<div class="l">
+					<input type="submit" value="Signup" onclick="signup()">
+				</div>
+			</form>
+			 <div class="y"> <i><a href="login.html" target="_blank">Login</a></i></div> 
+			<i class="fa-solid fa-waveform"></i>
+		</div>
+
+		<img src="photo_2022-08-26_13-42-16.jpg" alt="" class="pic">
+		<div class="m">
+			<h1>The Music</h1>
+
+			<h3> For That Special Album Of Artist?</h3>
+			<h3 class="n"> Just Search And Hit Play! </h3>
+		</div>
+
+	</div>
+
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="master2.css">
+	<script defer type="text/javascript">
+		var users = [];
+		if (localStorage.getItem("x") == null) {
+			users = [];
+		}
+		else {
+			users = JSON.parse(localStorage.getItem("x"));
+		}
+
+		function signup() {
+			var email = document.getElementById("mail").value;
+			var username = document.getElementById("username").value;
+			var password = document.getElementById("pass").value;
+			//set user input into JSON
+			var user = { username: username, password: password };
+			//push new user to array
+			users.push(user);
+			//save to localStorage
+			localStorage.setItem("x", JSON.stringify(users));
+
+		}
+
+	</script>
+
+
+	<title>SignUp</title>
+</head>
+
+<body>
+
+	<i class="fa-brands fa-napster"></i>
+	<div class="z">
+
+		<video class="v2" autoplay muted loop>
+			<source src="video_2022-08-26_13-44-22.mp4">
+		</video>
+		<form action="Homepage.html" name="Signupform" on method="post" id="Signupform" required>
+			<div class="input2">
+
+				<input type="text" placeholder="first name" class="firstname" required>
+				<input type="text" placeholder="Seconed name" class="seconedname" required>
+				<input type="email" placeholder="Email" class="email" id="mail" required>
+				<input type="text" placeholder="Username" class="username" id="username" required>
+				<input type="password" placeholder="Password" class="password" id="pass" required>
+
+				<input class="l" type="submit" value="Signup" onclick="signup()">
+
+
+
+				<i class="fa-solid fa-waveform"></i>
+			</div>
+		</form>
+
+
+		<img src="photo_2022-08-26_13-42-16.jpg" alt="" class="pic">
+		<div class="m">
+			<h1>The Music</h1>
+
+			<h3> For That Special Album Of Artist?</h3>
+			<h3 class="n"> Just Search And Hit Play! </h3>
+		</div>
+
+	</div>
+
+</body>
+
+</html>

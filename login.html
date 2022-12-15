@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="master.css">
+  <title>music word</title>
+  <script defer type="text/javascript">
+
+    function login() {
+      var username = document.getElementById("Username").value;
+      var password = document.getElementById("password").value;
+      var user = { username: username, password: password };
+      var users = [];
+      users = JSON.parse(localStorage.getItem("x"));
+
+      if (users[0]) {
+        for (let i = 0; i < users.length; i++) {
+          if (users[i].username === user.username && users[i].password === user.password) {
+
+            document.getElementById('loginform').action = "Homepage.html";
+
+          }
+
+        }
+      }
+
+
+    }
+
+
+  </script>
+</head>
+
+<body>
+
+  <h1>Login</h1>
+  <div class="r">
+    <form name="loginform" method="post" id="loginform" required>
+      <img class="t" src="photo_2022-08-26_13-00-35.jpg" alt="">
+      <div class="input">
+        <input class="username" type="text" placeholder="Username" id="Username" required>
+        <input class="password" type="password" placeholder="Password" id="password" required>
+        <!--  <button class="btn" type="submit" onclick="login()"> login </button> -->
+        <div class="y"> <i><a href="signup.html" target="_blank">signup</a></i></div>
+
+        <input class="l" type="submit" onclick="login()" value="Sign in">
+      </div>
+    </form>
+  </div>
+  <video class="v" autoplay loop muted>
+    <source src="video_2022-08-26_13-03-40.mp4">
+  </video>
+
+</body>
+
+</html>
+
+</html>
